@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  }
+  
+  /*keseluruhan halaman */
+.homepage {
+  padding: 20px;
+  }
+  .nav-menu .active {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  .homepage-title {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+  }
+  /* Header */
+  .homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .homepage-title h1 {
+    font-size: 15px;
+    margin-right: 65em;
+    line-height: 0.1em;
+    margin-top: 0.7em;
+  }
+  .homepage-title img {
+   padding: 0;
+   margin-bottom: 0.5em;
+   max-width: 1.5em;;
+  }
+  
+  .homepage-header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .homepage-header nav li {
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 3em;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .balance-cards {
+    background-image: url(../assets/images/Background\ Saldo.png);
+    background-size: cover;
+    background-position: -0.5em -2em;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 45em;
+    height: 8em;
+    text-align: left;
+    line-height: 2em;
+  }
+  .balance-cards p {
+  font-size: x-large;
+  }
+  .balance-cards button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  /* Section untuk Top-Up */
+  .topup-section {
+    padding: 20px;
+  }
+  
+  /* Pesan sambutan */
+  .welcome-message p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .welcome-message h1 {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Kartu saldo */
+  .balance-card {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .balance-card p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .balance-card h2 {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .balance-card .toggle-balance {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* Form Top-Up */
+  .topup-form {
+    text-align: left;
+  }
+  
+  .topup-form p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .topup-form h1 {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .input-field {
+    width: 58em;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+.topup-fill {
+  display: flex;
+  gap: 1em;
+}
+.fill-form {
+  display: flex;
+  flex-direction: column;
+}
+
+  /* Tombol Quick Nominal */
+  .quick-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    width: 25em;
+  }
+  
+  .quick-buttons button {
+  width: 13em; 
+  height: 40px; 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-bottom: 0.8em;
+  }
+  
+  .quick-buttons button:hover {
+    background-color: #ff0000;
+    color: #fff;
+    border-color: #ff0000;
+  }
+  
+  /* Tombol Top Up */
+  .topup-button {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .topup-button:hover {
+    background-color: #ff0000;
+  }

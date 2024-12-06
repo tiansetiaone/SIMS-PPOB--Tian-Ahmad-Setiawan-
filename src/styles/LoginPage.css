@@ -1,0 +1,110 @@
+.registration-container {
+  display: flex;
+  height: 100vh;
+  background-color: #fff5f5;
+}
+
+/* Bagian form */
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.logotext {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+.logocontainer {
+  max-width: 15em;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 0.5em;
+}
+.logocontainer img {
+  max-height: 2em;
+}
+h2 {
+  font-size: 23px;
+  margin-bottom: 30px;
+  color: #141414;
+  text-align: center;
+  max-width: 10em;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  border-color: #f30909;
+  outline: none;
+}
+
+.login-button {
+  background-color: #f30909;
+  color: #ffffff;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2em;
+}
+
+.login-button:hover {
+  background-color: #b71c1c;
+}
+
+.register-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.register-link a {
+  color: #d32f2f;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Bagian ilustrasi */
+.illustration-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff5f5;
+  background-image: url('/src/assets/images/Illustrasi\ Login.png');
+  background-size: cover;
+  background-position: -1em -9em ;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}

@@ -1,0 +1,167 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.homepage {
+  padding: 20px;
+}
+.homepage-title {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+/* Header */
+.homepage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.homepage-title h1 {
+  font-size: 15px;
+  margin-right: 65em;
+  line-height: 0.1em;
+  margin-top: 0.7em;
+}
+.homepage-title img {
+ padding: 0;
+ margin-bottom: 0.5em;
+ max-width: 1.5em;;
+}
+
+.homepage-header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.homepage-header nav li {
+  cursor: pointer;
+  color: #333;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 3em;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 15px;
+  text-align: left;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.balance-cards {
+  background-image: url(../assets/images/Background\ Saldo.png);
+  background-size: cover;
+  background-position: -0.5em -2em;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 45em;
+  height: 8em;
+  text-align: left;
+  line-height: 2em;
+}
+.balance-cards p {
+font-size: x-large;
+}
+.balance-cards button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Services Section */
+.services-section {
+  display: flex;
+  justify-content: center;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column; /* Atur gambar dan teks secara vertikal */
+  align-items: center; /* Pusatkan konten dalam elemen */
+  width: 120px; /* Lebar kartu layanan */
+  padding: 8px;
+  background: #f9f9f9; /* Warna latar belakang kartu */
+  text-align: center; /* Pusatkan teks */
+  justify-content: center;
+}
+.service-image {
+  width: 60px; /* Ukuran gambar */
+  height: 60px;
+  object-fit: contain; /* Menjaga proporsi gambar */
+  margin-bottom: 8px; /* Jarak antara gambar dan teks */
+}
+.service-item span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.service-item img {
+  cursor: pointer; /* Ubah kursor menjadi pointer */
+  transition: transform 0.2s ease-in-out; /* Animasi untuk efek hover (opsional) */
+}
+
+.service-item img:hover {
+  transform: scale(1.1); /* Membuat gambar membesar saat hover (opsional) */
+}
+/* Promotions Section */
+.promotions-section {
+  margin-top: 30px;
+}
+
+.promotions-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.promo-item {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0.5em;
+}
+
+.promo-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promo-item h4 {
+  font-size: 16px;
+  color: #333;
+}
+
+.promo-item p {
+  font-size: 14px;
+  color: #666;
+  padding: 0 10px;
+}

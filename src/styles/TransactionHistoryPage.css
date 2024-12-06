@@ -1,0 +1,173 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .homepage {
+    padding: 20px;
+    }
+  
+    .homepage-title {
+      display: flex;
+      gap: 0.5em;
+      align-items: center;
+    }
+    /* Header */
+    .homepage-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      flex-direction: row;
+    }
+    
+    .homepage-title h1 {
+      font-size: 15px;
+      line-height: 0.1em;
+      margin-top: 0.7em;
+    }
+    .homepage-title img {
+     padding: 0;
+     margin-bottom: 0.5em;
+     max-width: 1.5em;;
+    }
+    
+    .homepage-header nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+    }
+    
+    .homepage-header nav li {
+      cursor: pointer;
+      color: #333;
+    }
+    
+    /* Profile Section */
+    .profile-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 3em;
+    }
+    
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      gap: 15px;
+      text-align: left;
+    }
+    
+    .profile-picture {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .balance-cards {
+      background-image: url(../assets/images/Background\ Saldo.png);
+      background-size: cover;
+      background-position: -0.5em -2em;
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 45em;
+      height: 8em;
+      text-align: left;
+      line-height: 2em;
+    }
+    .balance-cards p {
+    font-size: x-large;
+    }
+    .balance-cards button {
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  
+  /* Transaction History Section */
+  .transaction-history h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .transaction-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .transaction-item:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-item.positive .transaction-amount {
+    color: #00c853;
+  }
+  
+  .transaction-item.negative .transaction-amount {
+    color: #ff5252;
+  }
+  
+  .transaction-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction-amount {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .transaction-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .transaction-type {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Show More Button */
+  .show-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
